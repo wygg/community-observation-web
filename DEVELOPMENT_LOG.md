@@ -107,8 +107,9 @@ mkdir -p content/observations images/observations src/components src/app/observa
 1. 在 GitHub 创建仓库：`wygg/community-observation-web`
 2. 配置本地 Git：
    ```bash
-   git config user.name "wygg"
-   git config user.email "wygg.com@gmail.com"
+   git config user.name "your-username"
+   git config user.email "your-email@example.com"
+   # 使用真实的 GitHub 用户名和邮箱
    ```
 
 #### GitHub CLI 认证
@@ -118,8 +119,7 @@ brew install gh
 
 # 认证过程
 gh auth login
-# 验证码: 0940-0A5D (第一次)
-# 验证码: C35B-7AA6 (第二次，成功)
+# [两次输入验证码进行设备认证，验证码具有时效性]
 gh auth setup-git
 ```
 
