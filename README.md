@@ -1,36 +1,131 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 小区考现学网站
 
-## Getting Started
+基于 Next.js + Obsidian + GitHub + Vercel 构建的考现学观察记录网站。
 
-First, run the development server:
+## 项目特点
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+- ✍️ **Obsidian 写作**：使用 Obsidian 编写 Markdown 格式的观察笔记
+- 📝 **自动发布**：推送到 GitHub 自动触发网站更新
+- 🎥 **多媒体支持**：支持 YouTube 视频、图片展示
+- 📱 **响应式设计**：适配桌面端和移动端
+- ⚡ **快速部署**：基于 Vercel 自动部署
+
+## 项目结构
+
+```
+community-observation-web/
+├── content/observations/          # 观察笔记 Markdown 文件
+├── images/observations/           # 图片资源
+├── src/app/                       # Next.js 应用目录
+├── src/components/                # React 组件
+└── .github/workflows/            # GitHub Actions 工作流
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 如何使用
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 1. 写作环境设置
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+在 Obsidian 中创建仓库的本地副本，使用以下模板：
 
-## Learn More
+```markdown
+---
+title: "观察标题"
+date: "2024-02-07"
+location: "观察地点"
+category: "分类"
+tags: ["标签1", "标签2"]
+youtube: "YouTube视频ID（可选）"
+images:
+  - "/images/observations/图片1.jpg"
+  - "/images/observations/图片2.jpg"
+---
 
-To learn more about Next.js, take a look at the following resources:
+# 观察标题
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+观察内容...
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### 2. 发布流程
 
-## Deploy on Vercel
+1. 在 Obsidian 中编写观察笔记
+2. 将 `.md` 文件保存到 `content/observations/` 目录
+3. 将图片保存到 `images/observations/` 目录
+4. 提交并推送到 GitHub：
+   ```bash
+   git add .
+   git commit -m "添加新的观察笔记"
+   git push origin main
+   ```
+5. 网站会自动更新
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### 3. 本地开发
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```bash
+npm install
+npm run dev
+```
+
+访问 http://localhost:3000 查看效果。
+
+## 部署设置
+
+### Vercel 配置
+
+1. 将项目推送到 GitHub
+2. 在 Vercel 中导入项目
+3. 配置环境变量：
+   - `VERCEL_TOKEN`
+   - `VERCEL_ORG_ID`
+   - `VERCEL_PROJECT_ID`
+
+### GitHub Actions 配置
+
+在 GitHub 仓库设置中添加 Secrets：
+- `VERCEL_TOKEN`
+- `VERCEL_ORG_ID` 
+- `VERCEL_PROJECT_ID`
+
+## 内容管理
+
+### 文件命名规范
+
+观察笔记文件名格式：`YYYY-MM-DD-观察标题.md`
+
+例如：`2024-02-07-小区入口设计观察.md`
+
+### 图片管理
+
+- 图片统一放在 `images/observations/` 目录
+- 建议使用有意义的文件名
+- 支持 JPG、PNG、WebP 格式
+
+### 分类标签
+
+常用分类：
+- 公共空间
+- 交通设施
+- 绿化环境
+- 社区服务
+- 安全设施
+
+常用标签：
+- 设计、人性化、安全、便利、美观等
+
+## 技术栈
+
+- **前端框架**：Next.js 14 (App Router)
+- **样式**：Tailwind CSS
+- **内容处理**：gray-matter + remark
+- **部署**：Vercel + GitHub Actions
+- **写作工具**：Obsidian
+
+## 贡献指南
+
+1. Fork 项目
+2. 创建功能分支
+3. 提交更改
+4. 发起 Pull Request
+
+## 许可证
+
+MIT License
