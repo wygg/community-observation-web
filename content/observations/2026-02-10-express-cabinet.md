@@ -1,13 +1,13 @@
 ---
-title: "社区快递柜使用观察"
+title: "Express Cabinet Usage Observation"
 date: "2026-02-10 00:45"
-location: "小区南门快递柜区域"
-category: "社区设施"
-tags: ["考现", "快递柜", "社区观察", "用户体验"]
+location: "Community South Gate Express Cabinet Area"
+category: "Community Facilities"
+tags: ["observation", "express-cabinet", "community-observation", "user-experience"]
 youtube: ""
 images:
-  - "/images/observations/express-cabinet-01.jpg"
-  - "/images/observations/express-cabinet-02.jpg"
+  - "/images/observations/2026-02-10-express-cabinet-1.jpg"
+  - "/images/observations/2026-02-10-express-cabinet-2.jpg"
 ---
 
 # 社区快递柜使用观察

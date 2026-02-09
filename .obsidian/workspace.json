@@ -201,6 +201,8 @@
   },
   "active": "d2bf4f215e40fcb4",
   "lastOpenFiles": [
+    "CONTENT_STANDARDS.md",
+    "content/observations/2026-02-10-express-cabinet.md",
     "public/images/observations/2026-02-09-cigarette-butts-3.jpg",
     "public/images/observations/2026-02-09-cigarette-butts-2.jpg",
     "public/images/observations/2026-02-09-cigarette-butts-1.jpg",
@@ -240,7 +242,6 @@
     "docs/dev-logs/开发日志-2026-02-09.md",
     "docs/dev-logs/2026-02-09.md",
     "templates/快速观察模板.md",
-    "templates/快捷考现模板-简化版.md",
     "docs/dev-logs",
     "templates"
   ]
