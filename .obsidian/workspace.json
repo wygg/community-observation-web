@@ -215,6 +215,9 @@
   },
   "active": "cd37d27edf9af5a8",
   "lastOpenFiles": [
+    "工作流程最佳实践.md",
+    "开发日志-2026-02-09.md",
+    "考现学插件开发提案.md",
     "2026-02-09 102号楼5单元楼梯考现.md.md",
     "content/observations/2026-02-09 自动化测试验证.md",
     "模板测试指南.md",
@@ -238,7 +241,6 @@
     "未命名.md",
     "obsidian-template.md",
     "templates",
-    "templates/智能观察模板.md",
-    "templates/考现学观察模板.md"
+    "templates/智能观察模板.md"
   ]
 }
