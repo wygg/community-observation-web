@@ -21,15 +21,7 @@ interface PostData {
   content: string;
 }
 
-async function getPostData(id: string): Promise<PostData> {
-  // Decode URL parameter to handle spaces and Chinese characters
-  const decodedId = decodeURIComponent(id);
-  const fullPath = path.join(postsDirectory, `${decodedId}.md`);
-  
-  if (!fs.existsSync(fullPath)) {
-    notFound();
-  }
-
+async function processFile(fullPath: string): Promise<PostData> {
   const fileContents = fs.readFileSync(fullPath, 'utf8');
   const matterResult = matter(fileContents);
 
@@ -38,11 +30,51 @@ async function getPostData(id: string): Promise<PostData> {
     .process(matterResult.content);
   const contentHtml = processedContent.toString();
 
+  // Extract id from filename
+  const id = path.basename(fullPath, '.md');
+
   return {
     id,
     content: contentHtml,
     ...matterResult.data,
   } as PostData;
+}
+
+async function getPostData(id: string): Promise<PostData> {
+  // Decode URL parameter to handle spaces and Chinese characters
+  const decodedId = decodeURIComponent(id);
+  const fullPath = path.join(postsDirectory, `${decodedId}.md`);
+  
+  // Debug logging
+  console.log('=== Debug Info ===');
+  console.log('Original id:', id);
+  console.log('Decoded id:', decodedId);
+  console.log('Expected path:', fullPath);
+  console.log('File exists:', fs.existsSync(fullPath));
+  
+  if (fs.existsSync(fullPath)) {
+    return processFile(fullPath);
+  }
+  
+  // If direct path doesn't work, try to find matching file
+  console.log('Trying alternative file matching...');
+  const files = fs.readdirSync(postsDirectory);
+  console.log('Available files:', files);
+  
+  const matchingFile = files.find(file => {
+    const fileWithoutExt = file.replace('.md', '');
+    console.log(`Comparing: "${fileWithoutExt}" with "${decodedId}"`);
+    return fileWithoutExt === decodedId;
+  });
+  
+  if (matchingFile) {
+    const altPath = path.join(postsDirectory, matchingFile);
+    console.log('Found matching file:', altPath);
+    return processFile(altPath);
+  }
+  
+  console.log('No matching file found for:', decodedId);
+  notFound();
 }
 
 export async function generateMetadata({ params }: { params: { id: string } }) {
