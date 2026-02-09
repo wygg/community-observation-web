@@ -215,6 +215,9 @@
   },
   "active": "cd37d27edf9af5a8",
   "lastOpenFiles": [
+    "docs/HEIC处理指南.md",
+    "scripts/heic-converter.sh",
+    "scripts",
     "README.md",
     "images/observations/README.md",
     "docs/图片管理最佳实践.md",
@@ -241,7 +244,6 @@
     "模板测试指南.md",
     "我对智能模版的要求：我的obsidian版本是ObsidianVersion 1.11.7 (Installer 1.7.4)，我想要：.md",
     "docs/快捷模板配置指南.md",
-    "templates/智能观察模板-示例.md",
     "templates"
   ]
 }
