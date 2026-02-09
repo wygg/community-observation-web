@@ -1,0 +1,29 @@
+{
+  "templater": {
+    "command_timeout": 5,
+    "trigger_on_file_creation": false,
+    "auto_jump_to_cursor": true,
+    "enable_ribbon_icon": true,
+    "enable_system_commands": false,
+    "shell_path": "",
+    "user_scripts_folder": "",
+    "user_functions_folder": "",
+    "enable_folder_templates": true,
+    "folder_templates": [
+      {
+        "folder": "",
+        "template": "templates/快捷考现模板.md"
+      }
+    ],
+    "enable_file_templates": true,
+    "file_templates": [
+      {
+        "regex": ".*",
+        "template": "templates/快捷考现模板.md"
+      }
+    ],
+    "syntax_highlighting": true,
+    "debug_mode": false,
+    "startup_templates": []
+  }
+}
