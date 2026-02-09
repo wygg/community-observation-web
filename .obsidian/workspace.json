@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/observations/2026-02-10 english test.md.md",
-                "mode": "preview",
+                "file": "content/observations/2026-02-09 大叔的烟头.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-02-10 english test.md"
+              "title": "2026-02-09 大叔的烟头"
             }
           }
         ],
@@ -199,17 +199,32 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "220dfc6614845414",
+  "active": "d2bf4f215e40fcb4",
   "lastOpenFiles": [
-    "content/observations/2026-02-10 社区快递柜使用观察.md",
-    "2026-02-10 社区快递柜使用观察.md",
+    "public/images/observations/2026-02-09-cigarette-butts-3.jpg",
+    "public/images/observations/2026-02-09-cigarette-butts-2.jpg",
+    "public/images/observations/2026-02-09-cigarette-butts-1.jpg",
+    "public/images/observations",
+    "public/images",
+    "images/observations/2026-02-09-cigarette-butts-3.jpg",
+    "images/observations/2026-02-09-cigarette-butts-2.jpg",
+    "images/observations/2026-02-09-cigarette-butts-1.jpg",
+    "ecosystem.config.json",
+    "images/observations/2026-02-09-大叔的烟头-3.jpg",
+    "images/observations/2026-02-09-大叔的烟头-2.jpg",
+    "images/observations/2026-02-09-大叔的烟头-1.jpg",
+    "content/observations/2026-02-09 自动化测试验证.md",
+    "content/observations/2026-02-09 大叔的烟头.md",
+    "content/observations/2026-02-09 test.md",
+    "content/observations/2026-02-08 102号楼5单元夜晚考现.md",
+    "content/observations/2024-02-07-小区入口设计观察.md",
     "README.md",
     "content/observations/2026-02-10 english test.md.md",
+    "content/observations/2026-02-10 社区快递柜使用观察.md",
+    "2026-02-10 社区快递柜使用观察.md",
     "content/observations/simple-test.md",
     "content/observations/2026-02-09 test.md.md",
-    "content/observations/2026-02-09 test.md",
     "content/observations/2026-02-09 大叔的烟头.md.md",
-    "content/observations/2026-02-09 大叔的烟头.md",
     "docs/图片管理最佳实践.md",
     "images/observations/2026-02-08 102号楼5单元大门.jpg",
     "docs/HEIC处理指南.md",
@@ -226,11 +241,7 @@
     "docs/dev-logs/2026-02-09.md",
     "templates/快速观察模板.md",
     "templates/快捷考现模板-简化版.md",
-    "templates/快捷考现模板.md",
-    "docs/模板测试指南.md",
     "docs/dev-logs",
-    "content/observations/2026-02-09 自动化测试验证.md",
-    "工作流程最佳实践.md",
     "templates"
   ]
 }
