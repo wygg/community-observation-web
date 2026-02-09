@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
-                "mode": "source",
+                "file": "content/observations/2026-02-10 english test.md.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "2026-02-10 english test.md"
             }
           }
         ],
@@ -201,10 +201,13 @@
   },
   "active": "220dfc6614845414",
   "lastOpenFiles": [
+    "content/observations/2026-02-10 社区快递柜使用观察.md",
+    "2026-02-10 社区快递柜使用观察.md",
+    "README.md",
+    "content/observations/2026-02-10 english test.md.md",
     "content/observations/simple-test.md",
     "content/observations/2026-02-09 test.md.md",
     "content/observations/2026-02-09 test.md",
-    "README.md",
     "content/observations/2026-02-09 大叔的烟头.md.md",
     "content/observations/2026-02-09 大叔的烟头.md",
     "docs/图片管理最佳实践.md",
@@ -228,9 +231,6 @@
     "docs/dev-logs",
     "content/observations/2026-02-09 自动化测试验证.md",
     "工作流程最佳实践.md",
-    "开发日志-2026-02-09.md",
-    "考现学插件开发提案.md",
-    "2026-02-09 102号楼5单元楼梯考现.md.md",
     "templates"
   ]
 }

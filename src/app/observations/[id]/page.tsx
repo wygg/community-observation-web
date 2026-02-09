@@ -77,8 +77,9 @@ async function getPostData(id: string): Promise<PostData> {
   notFound();
 }
 
-export async function generateMetadata({ params }: { params: { id: string } }) {
-  const post = await getPostData(params.id);
+export async function generateMetadata({ params }: { params: Promise<{ id: string }> }) {
+  const { id } = await params;
+  const post = await getPostData(id);
   
   return {
     title: `${post.title} - 社区考现学`,
@@ -86,8 +87,9 @@ export async function generateMetadata({ params }: { params: { id: string } }) {
   };
 }
 
-export default async function ObservationPost({ params }: { params: { id: string } }) {
-  const post = await getPostData(params.id);
+export default async function ObservationPost({ params }: { params: Promise<{ id: string }> }) {
+  const { id } = await params;
+  const post = await getPostData(id);
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 via-blue-50 to-indigo-50">
