@@ -22,7 +22,9 @@ interface PostData {
 }
 
 async function getPostData(id: string): Promise<PostData> {
-  const fullPath = path.join(postsDirectory, `${id}.md`);
+  // Decode URL parameter to handle spaces and Chinese characters
+  const decodedId = decodeURIComponent(id);
+  const fullPath = path.join(postsDirectory, `${decodedId}.md`);
   
   if (!fs.existsSync(fullPath)) {
     notFound();
