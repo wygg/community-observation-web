@@ -8,16 +8,16 @@
       "key": "I"
     }
   ],
-  "templater-obsidian:create-new-note-from-template": [
+  "templater:insert-templater": [
     {
       "modifiers": [
-        "Alt",
+        "Mod",
         "Shift"
       ],
-      "key": "N"
+      "key": "K"
     }
   ],
-  "templater:insert-templater": [
+  "templater-obsidian:create-new-note-from-template": [
     {
       "modifiers": [
         "Mod",
