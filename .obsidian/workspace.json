@@ -1,0 +1,196 @@
+{
+  "main": {
+    "id": "c7ed00596ae8f371",
+    "type": "split",
+    "children": [
+      {
+        "id": "8a43dc8ca1ab7ff6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "519f6ba58b709396",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "content/observations/2024-02-07-小区入口设计观察.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2024-02-07-小区入口设计观察"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "5787b4a81116bffd",
+    "type": "split",
+    "children": [
+      {
+        "id": "4987b9c372948b10",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6cff726acc54b712",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "493471fac58a7a5a",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "a3605892a06f076a",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "71319f67a266fcba",
+    "type": "split",
+    "children": [
+      {
+        "id": "dbaeaccdda4125b6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d3629b1505af349c",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "content/observations/2024-02-07-小区入口设计观察.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "2024-02-07-小区入口设计观察 的反向链接列表"
+            }
+          },
+          {
+            "id": "06ae32aa84a6064c",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "content/observations/2024-02-07-小区入口设计观察.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "2024-02-07-小区入口设计观察 的出链列表"
+            }
+          },
+          {
+            "id": "2b89abc56fd603b9",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "04df6c0aea5fb1fc",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          },
+          {
+            "id": "948755dbe345fd18",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "content/observations/2024-02-07-小区入口设计观察.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "2024-02-07-小区入口设计观察 的大纲"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "bases:新建数据库": false
+    }
+  },
+  "active": "6cff726acc54b712",
+  "lastOpenFiles": [
+    "docs/OBSIDIAN_SETUP.md",
+    "智能观察模板.md",
+    "考现学观察模板.md",
+    "content/observations/未命名.md",
+    "content/observations/2024-02-07-小区入口设计观察.md",
+    "docs/USER_GUIDE.md",
+    "obsidian-template.md"
+  ]
+}
