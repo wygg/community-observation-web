@@ -56,7 +56,7 @@ export function PostCard({ post }: PostCardProps) {
       <div className="p-6">
         {/* 标题和日期 */}
         <div className="mb-3">
-          <Link href={`/observations/${post.id}`}>
+          <Link href={`/observations/${encodeURIComponent(post.id)}`}>
             <h3 className="text-xl font-bold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-2">
               {post.title}
             </h3>
@@ -118,10 +118,10 @@ export function PostCard({ post }: PostCardProps) {
         </div>
 
         {/* 阅读按钮 */}
-        <Link 
-          href={`/observations/${post.id}`}
-          className="inline-flex items-center text-blue-600 hover:text-blue-800 font-medium text-sm group"
-        >
+<Link 
+            href={`/observations/${encodeURIComponent(post.id)}`}
+            className="inline-flex items-center text-blue-600 hover:text-blue-800 font-medium text-sm group"
+          >
           阅读观察
           <svg className="w-4 h-4 ml-1 transform group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
