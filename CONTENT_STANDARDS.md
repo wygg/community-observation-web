@@ -53,18 +53,18 @@ touch content/observations/2026-02-11-observation-topic.md
 ### 3. 文章模板
 ```markdown
 ---
-title: "English Title"
+title: "中文标题"
 date: "2026-02-11 XX:XX"
-location: "Location in English"
-category: "Category in English"
-tags: ["tag1", "tag2", "tag3"]
+location: "中文地点"
+category: "中文分类"
+tags: ["中文标签1", "中文标签2", "中文标签3"]
 youtube: ""  # 如果有视频，填入YouTube视频ID
 images:
   - "/images/observations/2026-02-11-observation-topic-1.jpg"
   - "/images/observations/2026-02-11-observation-topic-2.jpg"
 ---
 
-# English Title
+# 中文标题
 
 ## 观察背景
 
@@ -95,8 +95,9 @@ images:
 - [ ] 图片放在 `public/images/observations/`
 - [ ] 文章放在 `content/observations/`
 - [ ] frontmatter中的图片路径正确
-- [ ] 标题为英文
-- [ ] 标签为英文
+- [ ] 文件内容标题可以是中文（用于显示）
+- [ ] frontmatter字段可以是中文（用于显示）
+- [ ] 只有文件名和图片名必须是英文（避免编码问题）
 
 ## 🔄 命名建议
 
@@ -123,4 +124,4 @@ images:
 
 ---
 
-**记住：英文命名，标准路径，一劳永逸！**
+**记住：文件名用英文避免技术问题，内容用中文保持原汁原味！**
