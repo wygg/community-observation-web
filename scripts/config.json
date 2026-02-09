@@ -1,0 +1,10 @@
+{
+  "command": "python3",
+  "script_path": "/Users/wygg/community-observation-web/scripts/auto_image_handler.py",
+  "hotkey": "cmd+shift+o",
+  "template_file": "/Users/wygg/community-observation-web/templates/auto-observation-template.md",
+  "obsidian_vault": "/Users/wygg/community-observation-web",
+  "auto_translate": true,
+  "translation_api": "openai",  # 或 "local"
+  "api_key": "YOUR_OPENAI_API_KEY"
+}

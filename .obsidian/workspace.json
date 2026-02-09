@@ -201,6 +201,15 @@
   },
   "active": "d2bf4f215e40fcb4",
   "lastOpenFiles": [
+    "scripts/test_config.sh",
+    "OBSIDIAN_SETUP_GUIDE.md",
+    "scripts/obsidian_user_functions.js",
+    "scripts/create_observation.sh",
+    "templates/simple-auto-template.md",
+    "scripts/config.json",
+    "scripts/auto_image_handler.py",
+    "templates/auto-observation-template.md",
+    "content/observations/2026-02-10-trash-bin.md",
     "CONTENT_STANDARDS.md",
     "content/observations/2026-02-10-express-cabinet.md",
     "public/images/observations/2026-02-09-cigarette-butts-3.jpg",
@@ -237,12 +246,6 @@
     "docs/工作流程最佳实践.md",
     "docs/TEMPLATER_GUIDE.md",
     "docs/obsidian-guide.md",
-    "docs/OBSIDIAN_SETUP.md",
-    "docs/dev-logs/README.md",
-    "docs/dev-logs/开发日志-2026-02-09.md",
-    "docs/dev-logs/2026-02-09.md",
-    "templates/快速观察模板.md",
-    "docs/dev-logs",
-    "templates"
+    "docs/dev-logs"
   ]
 }
