@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/图片管理最佳实践.md",
+                "file": "content/observations/2026-02-09 大叔的烟头.md.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "图片管理最佳实践"
+              "title": "2026-02-09 大叔的烟头.md"
             }
           }
         ],
@@ -215,12 +215,13 @@
   },
   "active": "cd37d27edf9af5a8",
   "lastOpenFiles": [
+    "docs/图片管理最佳实践.md",
+    "images/observations/2026-02-08 102号楼5单元大门.jpg",
     "docs/HEIC处理指南.md",
     "scripts/heic-converter.sh",
     "scripts",
     "README.md",
     "images/observations/README.md",
-    "docs/图片管理最佳实践.md",
     "docs/考现学插件开发提案.md",
     "docs/工作流程最佳实践.md",
     "docs/TEMPLATER_GUIDE.md",
@@ -243,7 +244,6 @@
     "2026-02-09 102号楼5单元楼梯考现.md.md",
     "模板测试指南.md",
     "我对智能模版的要求：我的obsidian版本是ObsidianVersion 1.11.7 (Installer 1.7.4)，我想要：.md",
-    "docs/快捷模板配置指南.md",
     "templates"
   ]
 }
